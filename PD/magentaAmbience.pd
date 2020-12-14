@@ -74,15 +74,15 @@
 #X text 675 156 PD OUTPUT;
 #X msg 645 223 0;
 #X obj 566 301 ambienceController;
-#X text 75 28 Magenta Ambience is a file that will sequence random
-notes from the C Major Scale (PD) and send them to Magenta to turn
-into measures and meters \, to extract patterns and repetition.;
 #X text 80 105 This file works best with Magenta's Attention RNN and
 will be able to also apply principles of LTSM for melody generation.
 ;
 #X text 1008 15 terry feng;
 #X text 966 36 Magenta Ambience;
 #X text 1009 59 12/13/2020;
+#X text 75 28 Magenta Ambience is a file that will sequence random
+notes from the C Major Scale (PD) and send them to Magenta to repeat
+and extract patterns/repetition to generate output.;
 #X connect 1 0 6 0;
 #X connect 3 0 44 0;
 #X connect 5 0 8 0;
