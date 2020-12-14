@@ -1,15 +1,10 @@
-## Magenta CLI
+# Pure Data and Google Magenta
 
-List MIDI ports
+MUS 171 Computer Music Final Project:
 
-		magenta_midi --list-ports
+Using Pure Data and Google Magenta to create music:
 
-## Change Control Signals
+1. Using PD as a MIDI Controller and Receiver to initiate call and response melodies between user and Magenta 
 
-Set Magenta temperature
+2. Creating a dialogue between Pure Data and Magenta to create ambient textures through random data and repetition/pattern recognition
 
-		--temperature_control_number=1
-
-End the call phrase
-
-		--end_call_control_number=127
