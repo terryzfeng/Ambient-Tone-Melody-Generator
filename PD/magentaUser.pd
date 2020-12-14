@@ -1,0 +1,107 @@
+#N canvas 157 80 997 546 12;
+#X obj 63 456 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 91 428 bng 15 250 50 0 empty empty empty 17 7 0 10 -128992 -1
+-1;
+#X obj 120 456 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 149 428 bng 15 250 50 0 empty empty empty 17 7 0 10 -128992
+-1 -1;
+#X obj 178 456 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 207 456 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 236 428 bng 15 250 50 0 empty empty empty 17 7 0 10 -128992
+-1 -1;
+#X obj 265 456 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 294 428 bng 15 250 50 0 empty empty empty 17 7 0 10 -128992
+-1 -1;
+#X obj 323 456 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 352 428 bng 15 250 50 0 empty empty empty 17 7 0 10 -128992
+-1 -1;
+#X obj 381 456 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 410 456 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 36 455 C4;
+#X text 431 455 C5;
+#X obj 63 500 midiKeyboard, f 50;
+#X obj 729 341 pack 0 0 0;
+#X obj 729 403 dac~;
+#X obj 729 238 notein;
+#X obj 729 317 - 1;
+#X obj 729 275 poly 8 1;
+#X text 794 274 8 voice polyphony;
+#X text 880 365 MIDI Synth;
+#X obj 729 365 clone magentaSynth 8;
+#X text 876 18 terry feng;
+#X text 784 165 MAGENTA OUTPUT;
+#X text 869 38 magentaUser;
+#X text 875 59 12/10/2020;
+#X text 59 18 MIDI Controller and Receiver for controlling sending
+MIDI to Magenta and receiving MIDI from Magenta. CALL AND RESPONSE:
+Magenta will start up a metronome (120 bpm) and the user shall send
+MIDI input to Magenta. After 2 bars of silence \, Magenta will respond
+to the input given \, generating new melodies and will respond for
+as long as the input given.;
+#X obj 64 233 key;
+#X text 17 167 MAGENTA INPUT;
+#X obj 64 257 spigot;
+#X floatatom 64 281 5 0 0 0 - - -;
+#X obj 143 233 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X text 160 232 keyboard on/off;
+#X obj 64 323 route 97 119 115 101 100 102 116 103 121 104 117 106
+107, f 54;
+#X obj 439 370 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 459 369 if none;
+#X text 415 208 w e t y u;
+#X text 401 233 a s d f g h j k;
+#X text 453 168 KEYBINDS;
+#X text 318 207 BLACK KEYS;
+#X text 317 233 WHITE KEYS;
+#X text 397 259 C4;
+#X text 592 262 C5;
+#X connect 0 0 15 0;
+#X connect 1 0 15 1;
+#X connect 2 0 15 2;
+#X connect 3 0 15 3;
+#X connect 4 0 15 4;
+#X connect 5 0 15 5;
+#X connect 6 0 15 6;
+#X connect 7 0 15 7;
+#X connect 8 0 15 8;
+#X connect 9 0 15 9;
+#X connect 10 0 15 10;
+#X connect 11 0 15 11;
+#X connect 12 0 15 12;
+#X connect 16 0 23 0;
+#X connect 18 0 20 0;
+#X connect 18 1 20 1;
+#X connect 19 0 16 0;
+#X connect 20 0 19 0;
+#X connect 20 1 16 1;
+#X connect 20 2 16 2;
+#X connect 23 0 17 0;
+#X connect 23 0 17 1;
+#X connect 29 0 31 0;
+#X connect 31 0 32 0;
+#X connect 32 0 35 0;
+#X connect 33 0 31 1;
+#X connect 35 0 0 0;
+#X connect 35 1 1 0;
+#X connect 35 2 2 0;
+#X connect 35 3 3 0;
+#X connect 35 4 4 0;
+#X connect 35 5 5 0;
+#X connect 35 6 6 0;
+#X connect 35 7 7 0;
+#X connect 35 8 8 0;
+#X connect 35 9 9 0;
+#X connect 35 10 10 0;
+#X connect 35 11 11 0;
+#X connect 35 12 12 0;
+#X connect 35 13 36 0;
