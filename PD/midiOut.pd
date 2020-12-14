@@ -1,4 +1,4 @@
-#N canvas 199 141 627 523 12;
+#N canvas 139 53 627 523 12;
 #X floatatom 151 247 5 0 0 0 - - -;
 #X msg 176 306 80;
 #X msg 203 336 300;
@@ -10,11 +10,11 @@
 #X text 210 305 vel;
 #X text 228 335 duration (ms);
 #X obj 151 167 inlet;
-#X text 196 167 Midi Note;
 #X text 512 14 terry feng;
 #X text 505 34 midi output;
 #X text 119 77 Takes in a MIDI value and creates and outputs a MIDI
 note from PD into Magenta (or general MIDI);
+#X text 196 167 Midi Value;
 #X connect 0 0 5 0;
 #X connect 0 0 3 0;
 #X connect 0 0 1 0;
