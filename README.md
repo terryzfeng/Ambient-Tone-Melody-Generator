@@ -31,9 +31,9 @@ Goals
 
 ## Additional Notes
 
-- Basic RNN (./basic.sh) works best with `magentaUser.pd`
-- Attention RNN (./attnetion.sh) works best with `magentaAmbience.pd`
+- Basic RNN (`basic.sh`) works best with `magentaUser.pd`
+- Attention RNN (`attention.sh`) works best with `magentaAmbience.pd`
 
-Special thanks to Professor Tamara Smyth for all you guidance this quarter!
+Special thanks to Professor Tamara Smyth for all your guidance this quarter!
 
 &ndash; terry feng
