@@ -1,4 +1,4 @@
-#N canvas 105 22 1142 724 12;
+#N canvas 100 22 1148 984 12;
 #X text 671 466 1 octave;
 #X floatatom 603 513 5 0 0 0 - - -;
 #X text 645 512 MIDI Value;
