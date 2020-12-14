@@ -1,4 +1,4 @@
-#N canvas 202 170 793 414 12;
+#N canvas 202 170 790 417 12;
 #X obj 221 330 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 249 302 bng 15 250 50 0 empty empty empty 17 7 0 10 -33289 -1
@@ -25,9 +25,15 @@
 -1 -1;
 #X obj 568 330 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X text 189 329 C4;
-#X text 596 329 C5;
+#X text 194 329 C4;
+#X text 589 329 C5;
 #X obj 221 374 midiKeyboard, f 50;
+#X obj 40 156 pack 0 0 0;
+#X obj 40 218 dac~;
+#X obj 40 53 notein;
+#X obj 40 132 - 1;
+#X obj 40 90 poly 8 1;
+#X obj 40 180 clone magentaInput 8;
 #X connect 0 0 15 0;
 #X connect 1 0 15 1;
 #X connect 2 0 15 2;
@@ -41,3 +47,12 @@
 #X connect 10 0 15 10;
 #X connect 11 0 15 11;
 #X connect 12 0 15 12;
+#X connect 16 0 21 0;
+#X connect 18 0 20 0;
+#X connect 18 1 20 1;
+#X connect 19 0 16 0;
+#X connect 20 0 19 0;
+#X connect 20 1 16 1;
+#X connect 20 2 16 2;
+#X connect 21 0 17 0;
+#X connect 21 0 17 1;
