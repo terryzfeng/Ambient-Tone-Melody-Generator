@@ -10,6 +10,8 @@ Goals
 
 2. Create a dialogue between Pure Data and Magenta to generate ambient textures through random data (PD) and repetition/pattern recognition (Magenta)
 
+[Demo](https://www.youtube.com/watch?v=1xQEk60ymis)
+
 ## Setup
 
 1.  Set up the Google Magenta MIDI environment (full documentation [here](https://github.com/magenta/magenta/blob/master/magenta/interfaces/midi/README.md))
