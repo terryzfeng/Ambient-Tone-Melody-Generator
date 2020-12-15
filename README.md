@@ -6,9 +6,9 @@ Using [Pure Data](https://github.com/terryzfeng/Pure-Data-and-Google-Magenta) an
 
 Goals
 
-1. Use PD as a MIDI Controller and Receiver to initiate call and response melodies between the user and Magenta
+1. Use PD patch as a MIDI Controller and Receiver to initiate call and response melodies between the user and Magenta
 
-2. Create a dialogue between Pure Data and Magenta to generate ambient textures through random data (PD) and repetition/pattern recognition (Magenta)
+2. Create a dialogue between PD and Magenta to generate ambient textures through random data (PD) and repetition/pattern recognition (Magenta)
 
 Demo Video: [MUS 171 FA20 - Pure Data and Magenta](https://www.youtube.com/watch?v=1xQEk60ymis)
 
