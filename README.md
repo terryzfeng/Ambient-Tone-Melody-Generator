@@ -10,7 +10,7 @@ Goals
 
 2. Create a dialogue between Pure Data and Magenta to generate ambient textures through random data (PD) and repetition/pattern recognition (Magenta)
 
-[Demo](https://www.youtube.com/watch?v=1xQEk60ymis)
+Demo Video: [MUS 171 FA20 - Pure Data and Magenta](https://www.youtube.com/watch?v=1xQEk60ymis)
 
 ## Setup
 
