@@ -1,4 +1,4 @@
-# Pure Data and Google Magenta
+# Ambient Tone Melody Generator
 
 FA20 MUS 171 Computer Music Final Project:
 
